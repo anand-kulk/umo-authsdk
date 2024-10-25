@@ -1,0 +1,6 @@
+framework module UmoAuthSdk {
+  umbrella header "UmoAuthSdk.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name UmoAuthSdk
+import Flutter
+import Foundation
+import Swift
+import SwiftUI
+@_exported import UmoAuthSdk
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class Auth {
+  public struct Response<T> {
+    public var success: Swift.Bool
+    public var errorMessage: Swift.String?
+    public var response: T?
+  }
+  public struct LoginResult {
+    public var username: Swift.String?
+  }
+  public struct RefreshTokenResult {
+  }
+  public struct ThemeOptions {
+    public init(argbBackgroundColor: Swift.String)
+  }
+  final public let flutterView: UmoAuthSdk.Auth.WrapperView
+  public var loginHandler: ((UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> Swift.Void)?
+  public init()
+  @_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    public typealias Body = @_opaqueReturnTypeOf("$s10UmoAuthSdk0B0C11WrapperViewV4bodyQrvp", 0) __
+  }
+  @objc deinit
+}
+extension UmoAuthSdk.Auth.WrapperView : Swift.Sendable {}

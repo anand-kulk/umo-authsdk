@@ -1,0 +1,608 @@
+{
+  "@@locale": "es_CL",
+  "doLogIn": "Iniciar sesión",
+  "doRegister": "Registrarse",
+  "doCancel": "Cancelar",
+  "doSubmit": "Enviar",
+  "doBack": "Atrás",
+  "doYes": "Sí",
+  "doNo": "No",
+  "doContinue": "Continuar",
+  "doIgnore": "Ignorar",
+  "doAccept": "Aceptar",
+  "doDecline": "Rechazar",
+  "doForgotPassword": "¿Olvidó la contraseña?",
+  "doClickHere": "Haga clic aquí",
+  "doImpersonate": "Suplantar",
+  "doTryAgain": "Vuelva a intentarlo",
+  "doTryAnotherWay": "Intentarlo de otra forma",
+  "kerberosNotConfigured": "Kerberos no configurado",
+  "kerberosNotConfiguredTitle": "Kerberos no configurado",
+  "bypassKerberosDetail": "No inició sesión en Kerberos o su navegador no está configurado para iniciar sesión en Kerberos.  Haga clic en Continuar para iniciar sesión de otra forma",
+  "kerberosNotSetUp": "Kerberos no está configurado.  No puede iniciar sesión.",
+  "registerTitle": "Registrarse",
+  "loginTitle": "Iniciar sesión en {identityProvider}",
+  "@loginTitle": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "loginTitleHtml": "{identityProvider}",
+  "@loginTitleHtml": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "impersonateTitle": "{identityProvider} Suplantar usuario",
+  "@impersonateTitle": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "impersonateTitleHtml": "<strong>{identityProvider}</strong> Suplantar usuario",
+  "@impersonateTitleHtml": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "realmChoice": "Dominio",
+  "unknownUser": "Usuario desconocido",
+  "loginTotpTitle": "Configuración del autenticador móvil",
+  "loginProfileTitle": "Actualizar información de la cuenta",
+  "loginTimeout": "Se excedió el tiempo de espera para el inicio de sesión.  El inicio de sesión volverá a comenzar.",
+  "oauthGrantTitle": "Permitir acceso a {identityProvider}",
+  "@oauthGrantTitle": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "oauthGrantTitleHtml": "{identityProvider}",
+  "@oauthGrantTitleHtml": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "errorTitle": "Lo sentimos…",
+  "errorTitleHtml": "Lo <strong>sentimos</strong>…",
+  "emailVerifyTitle": "Verificación de correo electrónico",
+  "emailForgotTitle": "¿Olvidó su contraseña?",
+  "updatePasswordTitle": "Actualizar contraseña",
+  "codeSuccessTitle": "Código de éxito",
+  "codeErrorTitle": "Código de error: {errorCode}",
+  "@codeErrorTitle": {
+    "placeholders": {
+      "errorCode": {}
+    }
+  },
+  "displayUnsupported": "Tipo de presentación solicitado no compatible",
+  "browserRequired": "Se necesita un navegador para iniciar sesión",
+  "browserContinue": "Se necesita un navegador para completar el inicio de sesión",
+  "browserContinuePrompt": "¿Desea abrir el navegador y continuar con el inicio de sesión? [s/n]:",
+  "browserContinueAnswer": "s",
+  "termsTitle": "Términos y condiciones",
+  "termsText": "<p>Deben definirse los Términos y condiciones</p>",
+  "termsPlainText": "Deben definirse los Términos y condiciones.",
+  "recaptchaFailed": "Recaptcha no válido",
+  "recaptchaNotConfigured": "Se necesita el recaptcha y no está configurado",
+  "consentDenied": "Consentimiento rechazado.",
+  "noAccount": "¿Usuario nuevo?",
+  "username": "Nombre de usuario",
+  "usernameOrEmail": "Nombre de usuario o correo electrónico",
+  "firstName": "Nombre",
+  "givenName": "Nombre de pila",
+  "fullName": "Nombre completo",
+  "lastName": "Apellido",
+  "familyName": "Apellido",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "passwordConfirm": "Confirme la contraseña",
+  "passwordNew": "Nueva contraseña",
+  "passwordNewConfirm": "Confirme la nueva contraseña",
+  "rememberMe": "Recordarme",
+  "authenticatorCode": "Código de un solo uso",
+  "address": "Dirección",
+  "street": "Calle",
+  "locality": "Ciudad o localidad",
+  "region": "Estado, provincia o región",
+  "postalCode": "Código postal",
+  "country": "País",
+  "emailVerified": "Correo electrónico verificado",
+  "gssDelegationCredential": "Credencial de delegación GSS",
+  "profileScopeConsentText": "Perfil del usuario",
+  "emailScopeConsentText": "Dirección de correo electrónico",
+  "addressScopeConsentText": "Dirección",
+  "phoneScopeConsentText": "Número de teléfono",
+  "offlineAccessScopeConsentText": "Acceso fuera de línea",
+  "samlRoleListScopeConsentText": "Mis roles",
+  "rolesScopeConsentText": "Roles de usuario",
+  "restartLoginTooltip": "Reiniciar inicio de sesión",
+  "loginTotpIntro": "Debe configurar un generador de contraseñas de un solo uso para acceder a esta cuenta",
+  "loginTotpStep1": "Instale una de las siguientes aplicaciones en su teléfono celular:",
+  "loginTotpStep2": "Abra la aplicación y escanee el código de barras:",
+  "loginTotpStep3": "Ingrese el código de un solo uso que brinda la aplicación y haga clic en Enviar para finalizar la configuración.",
+  "loginTotpStep3DeviceName": "Indique un nombre del dispositivo para poder administrar sus dispositivos con contraseñas de un solo uso.",
+  "loginTotpManualStep2": "Abra la aplicación e ingrese la clave:",
+  "loginTotpManualStep3": "Aplique la siguiente configuración si la aplicación lo permite:",
+  "loginTotpUnableToScan": "¿No se puede escanear?",
+  "loginTotpScanBarcode": "¿Escanear código de barras?",
+  "loginCredential": "Credencial",
+  "loginOtpOneTime": "Código de un solo uso",
+  "loginTotpType": "Tipo",
+  "loginTotpAlgorithm": "Algoritmo",
+  "loginTotpDigits": "Dígitos",
+  "loginTotpInterval": "Intervalo",
+  "loginTotpCounter": "Contador",
+  "loginTotpDeviceName": "Nombre del dispositivo",
+  "loginTotpTotp": "Según la hora",
+  "loginTotpHotp": "Según el contador",
+  "loginChooseAuthenticator": "Seleccione el método de inicio de sesión",
+  "oauthGrantRequest": "¿Desea permitir estos privilegios de acceso?",
+  "inResource": "en",
+  "emailVerifyInstruction1": "Se le envió un correo electrónico con instrucciones para verificar su dirección de correo electrónico.",
+  "emailVerifyInstruction2": "¿No recibió un código de verificación en su correo electrónico?",
+  "emailVerifyInstruction3": "para que se vuelva a enviar el correo electrónico.",
+  "emailLinkIdpTitle": "Vincular {accountName}",
+  "@emailLinkIdpTitle": {
+    "placeholders": {
+      "accountName": {}
+    }
+  },
+  "emailLinkIdp1": "Se le envió un correo electrónico con instrucciones para vincular la {identityProvider} cuenta {accountName} con su cuenta de {linkToAccountName}.",
+  "@emailLinkIdp1": {
+    "placeholders": {
+      "identityProvider": {},
+      "accountName": {},
+      "linkToAccountName": {}
+    }
+  },
+  "emailLinkIdp2": "¿No recibió un código de verificación en su correo electrónico?",
+  "emailLinkIdp3": "para que se vuelva a enviar el correo electrónico.",
+  "emailLinkIdp4": "Si ya verificó el correo electrónico en otro navegador",
+  "emailLinkIdp5": "para continuar.",
+  "backToLogin": "&laquo; Regresar al Inicio de sesión",
+  "emailInstruction": "Ingrese su nombre de usuario o dirección de correo electrónico y le enviaremos instrucciones para crear una contraseña nueva.",
+  "copyCodeInstruction": "Copie el código y péguelo en la aplicación:",
+  "pageExpiredTitle": "La página caducó",
+  "pageExpiredMsg1": "Para reiniciar el proceso de inicio de sesión",
+  "pageExpiredMsg2": "Para continuar el proceso de inicio de sesión",
+  "personalInfo": "Información personal:",
+  "roleAdmin": "Administrador",
+  "roleRealmAdmin": "Administrador del dominio",
+  "roleCreateRealm": "Crear dominio",
+  "roleCreateClient": "Crear cliente",
+  "roleViewRealm": "Ver dominio",
+  "roleViewUsers": "Ver usuarios",
+  "roleViewApplications": "Ver aplicaciones",
+  "roleViewClients": "Ver clientes",
+  "roleViewEvents": "Ver eventos",
+  "roleViewIdentityProviders": "Ver proveedores de identidad",
+  "roleManageRealm": "Administrar dominio",
+  "roleManageUsers": "Administrar usuarios",
+  "roleManageApplications": "Administrar aplicaciones",
+  "roleManageIdentityProviders": "Administrar proveedores de identidad",
+  "roleManageClients": "Administrar clientes",
+  "roleManageEvents": "Administrar eventos",
+  "roleViewProfile": "Ver perfil",
+  "roleManageAccount": "Administrar cuenta",
+  "roleManageAccountLinks": "Administrar vinculaciones de la cuenta",
+  "roleReadToken": "Leer token",
+  "roleOfflineAccess": "Acceso fuera de línea",
+  "clientAccount": "Cuenta",
+  "clientAccountConsole": "Consola de la cuenta",
+  "clientSecurityAdminConsole": "Consola de administración de seguridad",
+  "clientAdminCli": "Administrar CLI",
+  "clientRealmManagement": "Administración de dominio",
+  "clientBroker": "Agente",
+  "requiredFields": "Campos obligatorios",
+  "invalidUsernameMessage": "Nombre de usuario no válido.",
+  "invalidUsernameOrEmailMessage": "Correo electrónico o nombre de usuario no válido.",
+  "invalidPasswordMessage": "Contraseña no válida.",
+  "invalidEmailMessage": "Dirección de correo electrónico no válida.",
+  "accountDisabledMessage": "La cuenta se deshabilitó, comuníquese con el administrador.",
+  "accountTemporarilyDisabledMessage": "La cuenta se deshabilitó temporalmente, comuníquese con el administrador o vuelva a intentarlo más tarde.",
+  "expiredCodeMessage": "Se excedió el tiempo de espera para el inicio de sesión. Vuelva a iniciar sesión.",
+  "expiredActionMessage": "Caducó la acción. Continúe con el inicio de sesión.",
+  "expiredActionTokenNoSessionMessage": "Caducó la acción.",
+  "expiredActionTokenSessionExistsMessage": "Caducó la acción. Vuelva a comenzar.",
+  "missingFirstNameMessage": "Especifique el nombre.",
+  "missingLastNameMessage": "Especifique el apellido.",
+  "missingEmailMessage": "Especifique el correo electrónico.",
+  "missingUsernameMessage": "Especifique el nombre de usuario.",
+  "missingPasswordMessage": "Especifique la contraseña.",
+  "missingTotpMessage": "Especifique el código autenticador.",
+  "missingTotpDeviceNameMessage": "Especifique el nombre del dispositivo.",
+  "notMatchPasswordMessage": "Las contraseñas no coinciden.",
+  "invalidPasswordExistingMessage": "Contraseña existente no válida.",
+  "invalidPasswordBlacklistedMessage": "Contraseña no valida: está en la lista de contraseñas rechazadas.",
+  "invalidPasswordConfirmMessage": "La confirmación de la contraseña no coincide.",
+  "invalidTotpMessage": "Código autenticador no válido.",
+  "usernameExistsMessage": "El nombre de usuario ya existe.",
+  "emailExistsMessage": "No puede usar ese correo electrónico o nombre de usuario para la cuenta.",
+  "federatedIdentityExistsMessage": "Ya existe un usuario con {identifierName} {identifier}. Inicie sesión y visite la administración de cuentas para vincular la cuenta.",
+  "@federatedIdentityExistsMessage": {
+    "placeholders": {
+      "identifierName": {},
+      "identifier": {}
+    }
+  },
+  "confirmLinkIdpTitle": "La cuenta ya existe",
+  "federatedIdentityConfirmLinkMessage": "Ya existe un usuario con {identifierName} {identifier}. ¿Cómo desea continuar?",
+  "@federatedIdentityConfirmLinkMessage": {
+    "placeholders": {
+      "identifierName": {},
+      "identifier": {}
+    }
+  },
+  "federatedIdentityConfirmReauthenticateMessage": "Autentique la cuenta para vincular su cuenta con {accountName}",
+  "@federatedIdentityConfirmReauthenticateMessage": {
+    "placeholders": {
+      "accountName": {}
+    }
+  },
+  "nestedFirstBrokerFlowMessage": "El {identityProvider} usuario {accountName} no está vinculado a ningún usuario conocido.",
+  "@nestedFirstBrokerFlowMessage": {
+    "placeholders": {
+      "identityProvider": {},
+      "accountName": {}
+    }
+  },
+  "confirmLinkIdpReviewProfile": "Revisar perfil",
+  "confirmLinkIdpContinue": "Agregar a cuenta existente",
+  "configureTotpMessage": "Debe configurar el autenticador móvil para activar su cuenta.",
+  "updateProfileMessage": "Debe actualizar el perfil de usuario para activar su cuenta.",
+  "updatePasswordMessage": "Debe cambiar la contraseña para activar su cuenta.",
+  "resetPasswordMessage": "Debe cambiar la contraseña.",
+  "verifyEmailMessage": "Debe verificar la dirección de correo electrónico para activar su cuenta.",
+  "linkIdpMessage": "Debe verificar la dirección de correo electrónico para vincular su cuenta con {accountName}.",
+  "@linkIdpMessage": {
+    "placeholders": {
+      "accountName": {}
+    }
+  },
+  "emailSentMessage": "Si encontramos una cuenta asociada a ese nombre de usuario, enviaremos un enlace para recuperar la contraseña a la dirección de correo electrónico de la cuenta.",
+  "emailSendErrorMessage": "Error al enviar el correo electrónico, vuelva a intentarlo más tarde.",
+  "accountUpdatedMessage": "Se actualizó la cuenta.",
+  "accountPasswordUpdatedMessage": "Se actualizó la contraseña.",
+  "delegationCompleteHeader": "Inicio de sesión exitoso",
+  "delegationCompleteMessage": "Puede cerrar esta ventana de navegador y regresar a la aplicación de la consola.",
+  "delegationFailedHeader": "Error al iniciar sesión",
+  "delegationFailedMessage": "Puede cerrar esta ventana de navegador, regresar a la aplicación de la consola e intentar iniciar sesión más tarde.",
+  "noAccessMessage": "Sin acceso",
+  "invalidPasswordMinLengthMessage": "Contraseña no válida. Mínima cantidad de caracteres requerida: {minLength}.",
+  "@invalidPasswordMinLengthMessage": {
+    "placeholders": {
+      "minLength": {}
+    }
+  },
+  "invalidPasswordMinDigitsMessage": "Contraseña no válida. Mínima cantidad de números requerida: {minDigits}.",
+  "@invalidPasswordMinDigitsMessage": {
+    "placeholders": {
+      "minDigits": {}
+    }
+  },
+  "invalidPasswordMinLowerCaseCharsMessage": "Contraseña no válida. Mínima cantidad de letras minúsculas requerida: {minLowerCaseChars}.",
+  "@invalidPasswordMinLowerCaseCharsMessage": {
+    "placeholders": {
+      "minLowerCaseChars": {}
+    }
+  },
+  "invalidPasswordMinUpperCaseCharsMessage": "Contraseña no válida. Mínima cantidad de letras mayúsculas requerida: {minUpperCaseChars}.",
+  "@invalidPasswordMinUpperCaseCharsMessage": {
+    "placeholders": {
+      "minUpperCaseChars": {}
+    }
+  },
+  "invalidPasswordMinSpecialCharsMessage": "Contraseña no válida. Mínima cantidad de caracteres especiales requerida: {minSpecialChars}.",
+  "@invalidPasswordMinSpecialCharsMessage": {
+    "placeholders": {
+      "minSpecialChars": {}
+    }
+  },
+  "invalidPasswordNotUsernameMessage": "Contraseña no válida. No debe ser igual al usuario.",
+  "invalidPasswordRegexPatternMessage": "Contraseña no válida. Contiene caracteres prohibidos.",
+  "invalidPasswordHistoryMessage": "Contraseña no válida. No debe ser igual a ninguna de las últimas {minHistorySinceLastUse} contraseñas.",
+  "@invalidPasswordHistoryMessage": {
+    "placeholders": {
+      "minHistorySinceLastUse": {}
+    }
+  },
+  "invalidPasswordGenericMessage": "Contraseña no válida. La nueva contraseña no respeta las políticas de creación de contraseñas.",
+  "failedToProcessResponseMessage": "Error al procesar la respuesta",
+  "httpsRequiredMessage": "HTTPS obligatorio",
+  "realmNotEnabledMessage": "Dominio no habilitado",
+  "invalidRequestMessage": "Solicitud no válida",
+  "failedLogout": "Error al cerrar sesión",
+  "unknownLoginRequesterMessage": "Solicitante de inicio de sesión desconocido",
+  "loginRequesterNotEnabledMessage": "Solicitante de inicio de sesión no habilitado",
+  "bearerOnlyMessage": "No se admiten aplicaciones de solo portadores para iniciar sesión en navegadores",
+  "standardFlowDisabledMessage": "El cliente no tiene permitido iniciar sesión en un navegador con el response_type provisto. El flujo estándar está deshabilitado para el cliente.",
+  "implicitFlowDisabledMessage": "El cliente no tiene permitido iniciar sesión en un navegador con el response_type provisto. El flujo implícito está deshabilitado para el cliente.",
+  "invalidRedirectUriMessage": "Identificador URI de redirección no válido",
+  "unsupportedNameIdFormatMessage": "Formato del ID de nombre no compatible",
+  "invalidRequesterMessage": "Solicitante no válido",
+  "registrationNotAllowedMessage": "Registro no permitido",
+  "resetCredentialNotAllowedMessage": "Restablecimiento de credenciales no permitido",
+  "permissionNotApprovedMessage": "Permiso no aprobado.",
+  "noRelayStateInResponseMessage": "Sin estado de relevador como respuesta del proveedor de identidad.",
+  "insufficientPermissionMessage": "Permisos insuficientes para vincular identidades.",
+  "couldNotProceedWithAuthenticationRequestMessage": "No se pudo continuar con la solicitud de autenticación del proveedor de identidad.",
+  "couldNotObtainTokenMessage": "No se pudo obtener el token del proveedor de identidad.",
+  "unexpectedErrorRetrievingTokenMessage": "Error inesperado al recuperar el token del proveedor de identidad.",
+  "unexpectedErrorHandlingResponseMessage": "Error inesperado al tratar la respuesta del proveedor de identidad.",
+  "identityProviderAuthenticationFailedMessage": "Error de autenticación. No se pudo identificar al proveedor de identidad.",
+  "couldNotSendAuthenticationRequestMessage": "No se pudo enviar la solicitud de autenticación al proveedor de identidad.",
+  "unexpectedErrorHandlingRequestMessage": "Error inesperado al enviar la solicitud de autenticación al proveedor de identidad.",
+  "invalidAccessCodeMessage": "Código de acceso no válido.",
+  "sessionNotActiveMessage": "Sesión no activa.",
+  "invalidCodeMessage": "Se produjo un error. Vuelva a iniciar sesión en la aplicación.",
+  "identityProviderUnexpectedErrorMessage": "Error inesperado al autenticarse con el proveedor de identidad",
+  "identityProviderNotFoundMessage": "No se pudo encontrar el proveedor de identidad con el identificador.",
+  "identityProviderLinkSuccess": "Verificó su correo electrónico con éxito. Regrese al navegador original y continúe allí con el inicio de sesión.",
+  "staleCodeMessage": "Esta página ya no es válida. Regrese a la aplicación y vuelva a iniciar sesión.",
+  "realmSupportsNoCredentialsMessage": "El dominio no admite ningún tipo de credenciales.",
+  "credentialSetupRequired": "No se puede iniciar sesión. Se deben configurar las credenciales.",
+  "identityProviderNotUniqueMessage": "El dominio admite múltiples proveedores de identidad. No se pudo determinar qué proveedor de identidad debería utilizarse para la autenticación.",
+  "emailVerifiedMessage": "Se verificó su dirección de correo electrónico.",
+  "staleEmailVerificationLink": "Hizo clic en un enlace obsoleto y ya no es válido.  Quizá ya verificó su correo electrónico.",
+  "identityProviderAlreadyLinkedMessage": "La identidad federada que devolvió {identityProvider} ya está vinculada a otro usuario.",
+  "@identityProviderAlreadyLinkedMessage": {
+    "placeholders": {
+      "identityProvider": {}
+    }
+  },
+  "confirmAccountLinking": "Confirme si desea vincular la cuenta {accountName} del proveedor de identidad {identityProvider} con su cuenta.",
+  "@confirmAccountLinking": {
+    "placeholders": {
+      "accountName": {},
+      "identityProvider": {}
+    }
+  },
+  "confirmEmailAddressVerification": "Confirme si la dirección de correo electrónico {emailAddress} es válida.",
+  "@confirmEmailAddressVerification": {
+    "placeholders": {
+      "emailAddress": {}
+    }
+  },
+  "confirmExecutionOfActions": "Realice las siguientes acciones:",
+  "localeCa": "Català",
+  "localeCs": "Čeština",
+  "localeDe": "Deutsch",
+  "localeEn": "English",
+  "localeEs": "Español",
+  "localeEsCl": "Español (Chile)",
+  "localeEsPr": "Español (Puerto Rico)",
+  "localeFr": "Français",
+  "localeFrCa": "Français (Canada)",
+  "localeIt": "Italiano",
+  "localeJa": "日本語",
+  "localeKr": "한국어",
+  "localeLt": "Lietuvių",
+  "localeNl": "Nederlands",
+  "localeNo": "Norsk",
+  "localePl": "Polski",
+  "localePtBr": "Português (Brasil)",
+  "localeRu": "Русский",
+  "localeSk": "Slovenčina",
+  "localeSv": "Svenska",
+  "localeZhCn": "简体中文",
+  "backToApplication": "&laquo; Regresar a la aplicación",
+  "missingParameterMessage": "Faltan los siguientes parámetros: {parameterNames}",
+  "@missingParameterMessage": {
+    "placeholders": {
+      "parameterNames": {}
+    }
+  },
+  "clientNotFoundMessage": "No se encontró el cliente.",
+  "clientDisabledMessage": "Cliente deshabilitado.",
+  "invalidParameterMessage": "Parámetro no válido: {parameterName}",
+  "@invalidParameterMessage": {
+    "placeholders": {
+      "parameterName": {}
+    }
+  },
+  "alreadyLoggedIn": "Ya inició sesión.",
+  "differentUserAuthenticated": "Ya se autenticó como otro usuario (“{accountName}”) en esta sesión. Antes, cierre la sesión.",
+  "@differentUserAuthenticated": {
+    "placeholders": {
+      "accountName": {}
+    }
+  },
+  "brokerLinkingSessionExpired": "Se solicitó la vinculación de la cuenta de agente, pero la sesión actual ya no es válida.",
+  "proceedWithAction": "&raquo; Haga clic aquí para continuar",
+  "requiredActionConfigureTotp": "Configure la contraseña de un solo uso",
+  "requiredActionTermsAndConditions": "Términos y condiciones",
+  "requiredActionUpdatePassword": "Actualizar contraseña",
+  "requiredActionUpdateProfile": "Actualizar perfil",
+  "requiredActionVerifyEmail": "Verificar correo electrónico",
+  "doX509Login": "Iniciará sesión como:",
+  "clientCertificate": "Certificado cliente X509:",
+  "noCertificate": "[Sin certificado]",
+  "pageNotFound": "Página no encontrada",
+  "internalServerError": "Se produjo un error con el servidor interno",
+  "consoleUsername": "Nombre de usuario:",
+  "consolePassword": "Contraseña:",
+  "consoleOtp": "Contraseña de un solo uso:",
+  "consoleNewPassword": "Nueva contraseña:",
+  "consoleConfirmPassword": "Confirmar contraseña:",
+  "consoleUpdatePassword": "Debe actualizar su contraseña.",
+  "consoleVerifyEmail": "Debe verificar su dirección de correo electrónico.  Enviamos un correo electrónico con un código de verificación a {emailAddress}.  Ingrese el código a continuación.",
+  "@consoleVerifyEmail": {
+    "placeholders": {
+      "emailAddress": {}
+    }
+  },
+  "consoleEmailCode": "Código en el correo electrónico:",
+  "consoleAcceptTerms": "¿Acepta los Términos? [s/n]:",
+  "consoleAccept": "s",
+  "openshiftScopeUserInfo": "Información del usuario",
+  "openshiftScopeUserCheckAccess": "Información del acceso de usuario",
+  "openshiftScopeUserFull": "Acceso completo",
+  "openshiftScopeListProjects": "Enumerar proyectos",
+  "samlPostFormTitle": "Redireccionamiento de autenticación",
+  "samlPostFormMessage": "Redireccionando, espere.",
+  "samlPostFormJsDisabled": "Se deshabilitó JavaScript. Recomendamos que lo habilite. Haga clic en el siguiente botón para continuar.",
+  "otpDisplayName": "Aplicación de autenticación",
+  "otpHelpText": "Ingrese un código de verificación de la aplicación de autenticación.",
+  "passwordDisplayName": "Contraseña",
+  "passwordHelpText": "Ingrese su contraseña para iniciar sesión.",
+  "authUsernameFormDisplayName": "Nombre de usuario",
+  "authUsernameFormHelpText": "Ingrese su nombre de usuario para iniciar sesión",
+  "authUsernamePasswordFormDisplayName": "Nombre de usuario y contraseña",
+  "authUsernamePasswordFormHelpText": "Ingrese su nombre de usuario y contraseña para iniciar sesión.",
+  "webauthnDisplayName": "Clave de seguridad",
+  "webauthnHelpText": "Use su clave de seguridad para iniciar sesión.",
+  "webauthnPasswordlessDisplayName": "Clave de seguridad",
+  "webauthnPasswordlessHelpText": "Use su clave de seguridad para iniciar sesión sin contraseña.",
+  "webauthnLoginTitle": "Inicio de sesión con clave de seguridad",
+  "webauthnRegistrationTitle": "Registro de la clave de seguridad",
+  "webauthnAvailableAuthenticators": "Autenticadores disponibles",
+  "webauthnErrorTitle": "Error en la clave de seguridad",
+  "webauthnErrorRegistration": "Error al registrar la clave de seguridad.",
+  "webauthnErrorApiGet": "Error al autenticar con la clave de seguridad.",
+  "webauthnErrorDifferentUser": "El primer usuario autenticado no es el que está autenticado con la clave de seguridad.",
+  "webauthnErrorAuthVerification": "El resultado de autenticación de la clave de seguridad no es válido.",
+  "webauthnErrorRegisterVerification": "El resultado de registro de la clave de seguridad no es válido.",
+  "webauthnErrorUserNotFound": "Usuario desconocido autenticado con la clave de seguridad.",
+  "identityProviderRedirector": "Conectarse con otro proveedor de identidad",
+  "unableCreateAccount": "No se pudo crear la cuenta.",
+  "contactYourTransitAgency": "Contacte a su oficina de tránsito",
+  "usernameValidationError": "Los nombres de usuario deben tener al menos 3 caracteres. Puede usar su dirección de correo electrónico o cualquier otro nombre que no se haya utilizado en el sistema. No se permiten espacios.",
+  "accountCreatedTryLoginError": "Se creó la cuenta. Intente iniciar sesión.",
+  "missingTelephoneValidationError": "Falta el número de teléfono celular.",
+  "invalidTelephoneValidationError": "Número de teléfono celular no válido.",
+  "missingCodeValidationError": "Falta el código de verificación.",
+  "phoneNumberIsRegistered": "No puede usar ese número de teléfono con la cuenta.",
+  "incorrectPhoneNumber": "<h3>No pudimos iniciar sesión</h3><br><p>Si tienes una cuenta, <a href=\"{loginBaseUrl}&action=login_with_email\"><b>inicie sesión con su dirección de correo electrónico o nombre de usuario</b></a><br><br>Si no tienes una cuenta, <a href=\"{emailAddress}&action=create_with_mobile_number\"><b>cree una cuenta nueva</b></a><p>",
+  "@incorrectPhoneNumber": {
+    "placeholders": {
+      "loginBaseUrl": {}
+    }
+  },
+  "invalidUserMessage": "El nombre de usuario, correo electrónico o contraseña es incorrecto.<br>Inténtelo de nuevo o haga clic en <a href=\"{forgotPasswordUrl}\">\"¿Olvidó la contraseña?\"</a>.",
+  "@invalidUserMessage": {
+    "placeholders": {
+      "forgotPasswordUrl": {}
+    }
+  },
+  "welcomePageTitle": "Le damos la bienvenida a Umo",
+  "loginPageTitle": "Inicie sesión en Umo",
+  "registerPageTitle": "Cree una cuenta de Umo",
+  "forgotPasswordPageTitle": "¿Olvidó su contraseña de Umo?",
+  "resetPasswordPageTitle": "Restablezca su contraseña de Umo",
+  "recoveryLinkSent": "Se envió el enlace de recuperación",
+  "recoveryLinkSentBannerMessage": "Si tiene una cuenta, se enviará un enlace de recuperación a la dirección de correo electrónico. Revise la carpeta Correo no deseado o Spam si no lo recibió.",
+  "recoveryLinkSentBannerBottomMessage": "Comunicarse con el servicio de asistencia",
+  "createNewAccount": "Crear una nueva cuenta",
+  "doCreateAccount": "Crear cuenta",
+  "doVerifyAndCreateAccount": "Verificar y crear una cuenta",
+  "doVerifyAndLogin": "Verificar e iniciar sesión",
+  "emailOrUserName": "Correo electrónico o nombre de usuario",
+  "usingMyMobileNumber": "Con mi número de teléfono celular",
+  "usingMyEmailAddress": "Con mi dirección de correo electrónico",
+  "enterYourMobileNumber": "Ingrese el número de su teléfono celular",
+  "mobileNumber": "Número de teléfono celular",
+  "sendCode": "Enviar código",
+  "resendCode": "Volver a enviar el código",
+  "contactSupport": "Comunicarse con el servicio de asistencia",
+  "startOver": "Volver a comenzar",
+  "confirmationCodePageText": "¡Le enviaremos un código de confirmación de 4 dígitos para verificar su número y configurar la cuenta!",
+  "passwordDoesntMeetRequirementsText": "La contraseña no cumple con los requisitos. Vuelva a intentarlo.",
+  "passwordsDontMatchText": "Las contraseñas no coinciden. Vuelva a intentarlo.",
+  "passwordsMatch": "¡Las contraseñas coinciden!",
+  "passwordMustMeetTheseRequirements": "La contraseña debe cumplir con los siguientes requisitos:",
+  "minimumOf8Characters": "Debe tener ocho caracteres como mínimo.",
+  "oneCapitalLetter": "Debe tener al menos una letra mayúscula.",
+  "oneLowerLetter": "Debe tener al menos una letra minúscula.",
+  "oneNumber": "Debe tener al menos un número.",
+  "oneSpecialCharacter": "Debe tener al menos un carácter especial (!@#$%^).",
+  "srOnlyPasswordRulesText": "La contraseña debe cumplir con los siguientes requisitos:\nDebe tener ocho caracteres como mínimo.\nDebe tener al menos una letra mayúscula.\nDebe tener al menos una letra minúscula.\nDebe tener al menos un carácter especial (por ejemplo, !, @, #, $, %, ^).",
+  "createAnAccount": "Crear una cuenta",
+  "letsGetYouStarted": "¡Comencemos!",
+  "weSentItTo": "Enviamos el código de confirmación por mensaje de texto a",
+  "pleaseEnterValidEmailAddress": "Ingrese una dirección de correo electrónico válida.",
+  "createAccountWithEmail": "Crear cuenta con el correo electrónico",
+  "unableToConvertCardPageText": "No pudimos convertir su tarjeta porque el número de teléfono celular ya está registrado. Puede crear una cuenta con su correo electrónico o comunicarse con el servicio de asistencia.",
+  "errorPageHeader": "Error...",
+  "errorPageText": "Es posible que la página que está buscando se haya quitado o no esté disponible temporalmente.",
+  "confirmationCodeHasBeenSent": "Se envió el código de confirmación",
+  "weSentNewCode": "Enviamos un nuevo código a la siguiente dirección",
+  "pleaseAllowUpToMinute": "Espere hasta 1 minuto antes de solicitar un nuevo código.",
+  "didntReceiveACode": "¿No recibió el código?",
+  "youCanRequestANewCode": "Puede solicitar un nuevo código en:",
+  "enterConfirmationCode": "Ingrese el código de confirmación",
+  "unregisteredTouchPassCardPageText": "si tiene una tarjeta TouchPass no registrada, puede agregarla a continuación.",
+  "learnMore": "Más información",
+  "signingUpWithCard": "Registrarse con una tarjeta",
+  "signingUpWithCardDetail": "Si tiene una tarjeta de transporte TouchPass no registrada, ingrese el número de la tarjeta de 16 o 19 dígitos que se encuentra en el reverso de la tarjeta y transfiera cualquier saldo de efectivo o viajes.",
+  "signingUpWithCardDetail2": "Luego de realizada la transferencia, la tarjeta se deshabilitará y podrá desecharla.",
+  "cardNumber": "Número de la tarjeta",
+  "loginWithTouchPassAccount": "Inicie sesión con su cuenta existente de TouchPass",
+  "conversionSuccessful": "¡Conversión exitosa!",
+  "listItemOk": "Ahora puede usar Umo como tarjeta de transporte: solo muestre el código de la cartera al subir.",
+  "listItemInfo": "Se desactivó la tarjeta y puede desecharse",
+  "stopUsingCard": "¿Ya no desea usar la tarjeta?",
+  "youMustConvertYourCard": "Para continuar con el proceso de registro de la aplicación de Umo, debe convertir su tarjeta Umo o TouchPass.",
+  "yourPhysicalCardWillBeDisabled": "Su tarjeta física se deshabilitará de forma permanente.",
+  "doConvertMyCard": "Convertir mi tarjeta y registrarme",
+  "convertYourAccount": "¿Desea convertir su cuenta?",
+  "convertYourAccountDetail": "La cuenta está asociada a una tarjeta TouchPass o Umo.\nSi desea continuar, debe usar este dispositivo móvil para subir al autobús.\nLuego, se deshabilitará la tarjeta.",
+  "createAccountWithMyCard": "Crear una cuenta con mi tarjeta",
+  "verifyAndLogin": "Verificar e iniciar sesión",
+  "updateProfile": "Actualizar perfil",
+  "emailMeRecoveryLink": "Enviarme un correo electrónico con un enlace de recuperación",
+  "enterYourEmailOrUsername": "Ingrese su correo electrónico o nombre de usuario registrado con la cuenta.",
+  "rememberYourPassword": "¿Recuerda su contraseña?",
+  "resetPassword": "Restablecer contraseña",
+  "confirmPassword": "Confirmar contraseña",
+  "pleaseEnterUpdatedPassword": "Ingrese la nueva contraseña.",
+  "signIn": "Registrarse",
+  "convertCardToMobile": "Convertir tarjeta al dispositivo móvil",
+  "skipAndContinue": "Omitir y continuar",
+  "enterYourConfirmationCode": "Ingrese el código de confirmación",
+  "newHere": "¿Es la primera vez que nos visita?",
+  "welcome": "¡Le damos la bienvenida!",
+  "letsGetGoing": "Comencemos",
+  "clickToCreateNewAccount": "Haga clic aquí para crear una cuenta nueva",
+  "welcomeBack": "¡Hola de nuevo!",
+  "useYourUmoOrTouchPassNumber": "Use su número o nombre de usuario de Umo o TouchPass.",
+  "signInUsingUmoOrTouchPass": "Regístrese con su número o nombre de usuario de Umo o TouchPass",
+  "clickToSignInUsingUmoOrTouchPass": "Haga clic aquí para registrarse con su número o nombre de usuario de Umo o TouchPass",
+  "convertMyCard": "Para convertir la tarjeta, use el número de su tarjeta Umo o tarjeta de transporte",
+  "touchPassTransitCard": "Tarjeta de transporte TouchPass",
+  "useNumberOnYourCard": "Use el número de su tarjeta de transporte TouchPass o Umo.",
+  "clickToConvertYourCard": "Haga clic aquí para convertir su tarjeta con el número en su tarjeta de transporte TouchPass o Umo",
+  "clickToSignInUsingMobileNumber": "Haga clic aquí para registrarse con su número de teléfono celular",
+  "usingMyEmailAddressOrTouchPass": "Con mi dirección de correo electrónico o nombre de usuario y contraseña de TouchPass",
+  "clickToSigInUsingMyEmail": "Haga clic aquí para registrarse con su dirección de correo electrónico y contraseña",
+  "beforeYouContinue": "Antes de continuar...",
+  "cardWillBeDisabled": "Su tarjeta física se deshabilitará de forma permanente.",
+  "helpFindingMyCardNumberAlt": "Ayuda para encontrar el número de la tarjeta",
+  "beforeYouContinueAlt": "Umo y una tarjeta TouchPass con una notificación acerca de que el usuario convertirá su tarjeta TouchPass a la aplicación de Umo",
+  "cashBalancesWillBeConverted": "Los saldos de efectivo y los viajes se convertirán en la aplicación y ya no podrá usar la tarjeta.",
+  "convertCard": "Convertir tarjeta",
+  "keepUsingCard": "Seguir usando la tarjeta",
+  "whereToFindYourCardNumber": "¿Dónde está el número de la tarjeta?",
+  "yourCardNumberBelowBarcode": "Puede encontrar el número de 16 o 19 dígitos de la tarjeta en su reverso, por encima o por debajo del código de barras.",
+  "whereToFindYourCardNumberAlt": "Umo y una tarjeta TouchPass con una notificación de que el número se puede encontrar en el reverso de la tarjeta, por encima o por debajo del código de barras",
+  "enterYourCardNumber": "Ingrese el número de su tarjeta",
+  "enterYourCardNumberText": "Ingrese el número de 16 o 19 dígitos de su tarjeta, que se encuentra en el reverso.",
+  "wheresMyCardNumber": "¿Dónde está el número de la tarjeta?",
+  "createAccountWithMobilePhone": "Crear cuenta con el número de teléfono celular",
+  "createAccountWithEmailAlt": "Crear cuenta con el correo electrónico",
+  "invalidCardNumber": "Conversión no disponible para esta tarjeta. Por favor, contacta a tu agencia de transporte.",
+  "cardIsInUse": "Esta tarjeta tiene credenciales de inicio de sesión asociadas. Por favor, 'Iniciar sesión' para convertir tu tarjeta en vez de elegir la opción 'Crear una cuenta con mi tarjeta'.",
+  "cardGenericError": "No es posible convertir la tarjeta. Intente nuevamente o contacte a su oficina de tránsito.",
+  "cardIsAssociatedWithUser": "Inicie sesión para convertir su tarjeta",
+  "goBackTo": "Volver a {pageName}",
+  "@goBackTo": {
+    "placeholders": {
+      "pageName": {}
+    }
+  },
+  "goBackTooltip": "Volver a {pageName}",
+  "@goBackTooltip": {
+    "placeholders": {
+      "pageName": {}
+    }
+  }
+}

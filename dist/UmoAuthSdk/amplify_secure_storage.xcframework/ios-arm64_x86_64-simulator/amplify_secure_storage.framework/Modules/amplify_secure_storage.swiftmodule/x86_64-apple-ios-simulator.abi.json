@@ -1,0 +1,433 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "amplify_secure_storage",
+    "printedName": "amplify_secure_storage",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "amplify_secure_storage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "amplify_secure_storage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSUserDefaultsPigeon",
+        "printedName": "NSUserDefaultsPigeon",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setBool",
+            "printedName": "setBool(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22amplify_secure_storage20NSUserDefaultsPigeonP7setBool3key5valueySS_SbtKF",
+            "mangledName": "$s22amplify_secure_storage20NSUserDefaultsPigeonP7setBool3key5valueySS_SbtKF",
+            "moduleName": "amplify_secure_storage",
+            "genericSig": "<τ_0_0 where τ_0_0 : amplify_secure_storage.NSUserDefaultsPigeon>",
+            "sugared_genericSig": "<Self where Self : amplify_secure_storage.NSUserDefaultsPigeon>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "boolFor",
+            "printedName": "boolFor(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22amplify_secure_storage20NSUserDefaultsPigeonP7boolFor3keySbSS_tKF",
+            "mangledName": "$s22amplify_secure_storage20NSUserDefaultsPigeonP7boolFor3keySbSS_tKF",
+            "moduleName": "amplify_secure_storage",
+            "genericSig": "<τ_0_0 where τ_0_0 : amplify_secure_storage.NSUserDefaultsPigeon>",
+            "sugared_genericSig": "<Self where Self : amplify_secure_storage.NSUserDefaultsPigeon>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22amplify_secure_storage20NSUserDefaultsPigeonP",
+        "mangledName": "$s22amplify_secure_storage20NSUserDefaultsPigeonP",
+        "moduleName": "amplify_secure_storage",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSUserDefaultsPigeonSetup",
+        "printedName": "NSUserDefaultsPigeonSetup",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(binaryMessenger:api:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any amplify_secure_storage.NSUserDefaultsPigeon)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUserDefaultsPigeon",
+                    "printedName": "any amplify_secure_storage.NSUserDefaultsPigeon",
+                    "usr": "s:22amplify_secure_storage20NSUserDefaultsPigeonP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22amplify_secure_storage25NSUserDefaultsPigeonSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "mangledName": "$s22amplify_secure_storage25NSUserDefaultsPigeonSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "moduleName": "amplify_secure_storage",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserDefaultsPigeonSetup",
+                "printedName": "amplify_secure_storage.NSUserDefaultsPigeonSetup",
+                "usr": "s:22amplify_secure_storage25NSUserDefaultsPigeonSetupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22amplify_secure_storage25NSUserDefaultsPigeonSetupCACycfc",
+            "mangledName": "$s22amplify_secure_storage25NSUserDefaultsPigeonSetupCACycfc",
+            "moduleName": "amplify_secure_storage",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22amplify_secure_storage25NSUserDefaultsPigeonSetupC",
+        "mangledName": "$s22amplify_secure_storage25NSUserDefaultsPigeonSetupC",
+        "moduleName": "amplify_secure_storage",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "amplify_secure_storage"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "amplify_secure_storage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftAmplifySecureStoragePlugin",
+        "printedName": "SwiftAmplifySecureStoragePlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@amplify_secure_storage@objc(cs)SwiftAmplifySecureStoragePlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s22amplify_secure_storage31SwiftAmplifySecureStoragePluginC8register4withySo07FlutterH9Registrar_p_tFZ",
+            "moduleName": "amplify_secure_storage",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBool",
+            "printedName": "setBool(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22amplify_secure_storage31SwiftAmplifySecureStoragePluginC7setBool3key5valueySS_SbtKF",
+            "mangledName": "$s22amplify_secure_storage31SwiftAmplifySecureStoragePluginC7setBool3key5valueySS_SbtKF",
+            "moduleName": "amplify_secure_storage",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "boolFor",
+            "printedName": "boolFor(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22amplify_secure_storage31SwiftAmplifySecureStoragePluginC7boolFor3keySbSS_tKF",
+            "mangledName": "$s22amplify_secure_storage31SwiftAmplifySecureStoragePluginC7boolFor3keySbSS_tKF",
+            "moduleName": "amplify_secure_storage",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftAmplifySecureStoragePlugin",
+                "printedName": "amplify_secure_storage.SwiftAmplifySecureStoragePlugin",
+                "usr": "c:@M@amplify_secure_storage@objc(cs)SwiftAmplifySecureStoragePlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@amplify_secure_storage@objc(cs)SwiftAmplifySecureStoragePlugin(im)init",
+            "mangledName": "$s22amplify_secure_storage31SwiftAmplifySecureStoragePluginCACycfc",
+            "moduleName": "amplify_secure_storage",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@amplify_secure_storage@objc(cs)SwiftAmplifySecureStoragePlugin",
+        "mangledName": "$s22amplify_secure_storage31SwiftAmplifySecureStoragePluginC",
+        "moduleName": "amplify_secure_storage",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NSUserDefaultsPigeon",
+            "printedName": "NSUserDefaultsPigeon",
+            "usr": "s:22amplify_secure_storage20NSUserDefaultsPigeonP",
+            "mangledName": "$s22amplify_secure_storage20NSUserDefaultsPigeonP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

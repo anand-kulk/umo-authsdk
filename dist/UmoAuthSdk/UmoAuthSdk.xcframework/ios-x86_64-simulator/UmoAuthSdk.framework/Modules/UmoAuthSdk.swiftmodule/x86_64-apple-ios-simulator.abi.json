@@ -1,0 +1,2329 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UmoAuthSdk",
+    "printedName": "UmoAuthSdk",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UmoAuthSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "UmoAuthSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UmoAuthSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Auth",
+        "printedName": "Auth",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Response",
+            "printedName": "Response",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "success",
+                "printedName": "success",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C8ResponseV7successSbvp",
+                "mangledName": "$s10UmoAuthSdk0B0C8ResponseV7successSbvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV7successSbvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV7successSbvg",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV7successSbvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV7successSbvs",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV7successSbvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV7successSbvM",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "errorMessage",
+                "printedName": "errorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvp",
+                "mangledName": "$s10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvg",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvs",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV12errorMessageSSSgvM",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "response",
+                "printedName": "response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C8ResponseV8responsexSgvp",
+                "mangledName": "$s10UmoAuthSdk0B0C8ResponseV8responsexSgvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "τ_0_0?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV8responsexSgvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV8responsexSgvg",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "τ_0_0?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV8responsexSgvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV8responsexSgvs",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV8responsexSgvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C8ResponseV8responsexSgvM",
+                    "moduleName": "UmoAuthSdk",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<T>",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "UmoAuthSdk.Auth.Response<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C8ResponseVAEy_xGycfc",
+                "mangledName": "$s10UmoAuthSdk0B0C8ResponseVAEy_xGycfc",
+                "moduleName": "UmoAuthSdk",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(success:error:response:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "UmoAuthSdk.Auth.Response<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10UmoAuthSdk0B0C8ResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C8ResponseV7success5error8responseAEy_xGSb_SSxtcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C8ResponseV7success5error8responseAEy_xGSb_SSxtcfc",
+                "moduleName": "UmoAuthSdk",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C8ResponseV",
+            "mangledName": "$s10UmoAuthSdk0B0C8ResponseV",
+            "moduleName": "UmoAuthSdk",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LoginResult",
+            "printedName": "LoginResult",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "username",
+                "printedName": "username",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvp",
+                "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV8usernameSSSgvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginResult",
+                    "printedName": "UmoAuthSdk.Auth.LoginResult",
+                    "usr": "s:10UmoAuthSdk0B0C11LoginResultV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C11LoginResultVAEycfc",
+                "mangledName": "$s10UmoAuthSdk0B0C11LoginResultVAEycfc",
+                "moduleName": "UmoAuthSdk",
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(username:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginResult",
+                    "printedName": "UmoAuthSdk.Auth.LoginResult",
+                    "usr": "s:10UmoAuthSdk0B0C11LoginResultV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C11LoginResultV8usernameAESS_tcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV8usernameAESS_tcfc",
+                "moduleName": "UmoAuthSdk",
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C11LoginResultV",
+            "mangledName": "$s10UmoAuthSdk0B0C11LoginResultV",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "RefreshTokenResult",
+            "printedName": "RefreshTokenResult",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "accessToken",
+                "printedName": "accessToken",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvp",
+                "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV06accessE0SSvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "refreshToken",
+                "printedName": "refreshToken",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvp",
+                "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV07refreshE0SSvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "expires",
+                "printedName": "expires",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvp",
+                "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV7expires10Foundation4DateVvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(accessToken:refreshToken:expires:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RefreshTokenResult",
+                    "printedName": "UmoAuthSdk.Auth.RefreshTokenResult",
+                    "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV06accessE007refreshE07expiresAESS_SS10Foundation4DateVtcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV06accessE007refreshE07expiresAESS_SS10Foundation4DateVtcfc",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C18RefreshTokenResultV",
+            "mangledName": "$s10UmoAuthSdk0B0C18RefreshTokenResultV",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ThemeOptions",
+            "printedName": "ThemeOptions",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "argbBackgroundColor",
+                "printedName": "argbBackgroundColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvp",
+                "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorSSvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(argbBackgroundColor:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeOptions",
+                    "printedName": "UmoAuthSdk.Auth.ThemeOptions",
+                    "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorAESS_tcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV19argbBackgroundColorAESS_tcfc",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C12ThemeOptionsV",
+            "mangledName": "$s10UmoAuthSdk0B0C12ThemeOptionsV",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "methodChannel",
+            "printedName": "methodChannel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodChannel",
+                "printedName": "Flutter.FlutterMethodChannel",
+                "usr": "c:objc(cs)FlutterMethodChannel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UmoAuthSdk0B0C13methodChannelSo013FlutterMethodE0Cvp",
+            "mangledName": "$s10UmoAuthSdk0B0C13methodChannelSo013FlutterMethodE0Cvp",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UmoAuthSdk0B0C13methodChannelSo013FlutterMethodE0Cvg",
+                "mangledName": "$s10UmoAuthSdk0B0C13methodChannelSo013FlutterMethodE0Cvg",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flutterView",
+            "printedName": "flutterView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WrapperView",
+                "printedName": "UmoAuthSdk.Auth.WrapperView",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UmoAuthSdk0B0C11flutterViewAC07WrapperE0Vvp",
+            "mangledName": "$s10UmoAuthSdk0B0C11flutterViewAC07WrapperE0Vvp",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WrapperView",
+                    "printedName": "UmoAuthSdk.Auth.WrapperView",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UmoAuthSdk0B0C11flutterViewAC07WrapperE0Vvg",
+                "mangledName": "$s10UmoAuthSdk0B0C11flutterViewAC07WrapperE0Vvg",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loginHandler",
+            "printedName": "loginHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginResult",
+                            "printedName": "UmoAuthSdk.Auth.LoginResult",
+                            "usr": "s:10UmoAuthSdk0B0C11LoginResultV"
+                          }
+                        ],
+                        "usr": "s:10UmoAuthSdk0B0C8ResponseV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvp",
+            "mangledName": "$s10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvp",
+            "moduleName": "UmoAuthSdk",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Response",
+                            "printedName": "UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LoginResult",
+                                "printedName": "UmoAuthSdk.Auth.LoginResult",
+                                "usr": "s:10UmoAuthSdk0B0C11LoginResultV"
+                              }
+                            ],
+                            "usr": "s:10UmoAuthSdk0B0C8ResponseV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvg",
+                "mangledName": "$s10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvg",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Response",
+                            "printedName": "UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LoginResult",
+                                "printedName": "UmoAuthSdk.Auth.LoginResult",
+                                "usr": "s:10UmoAuthSdk0B0C11LoginResultV"
+                              }
+                            ],
+                            "usr": "s:10UmoAuthSdk0B0C8ResponseV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvs",
+                "mangledName": "$s10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvs",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvM",
+                "mangledName": "$s10UmoAuthSdk0B0C12loginHandleryAC8ResponseVy_AC11LoginResultVGcSgvM",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Auth",
+                "printedName": "UmoAuthSdk.Auth",
+                "usr": "s:10UmoAuthSdk0B0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10UmoAuthSdk0B0CACycfc",
+            "mangledName": "$s10UmoAuthSdk0B0CACycfc",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "FlutterViewControllerRepresentable",
+            "printedName": "FlutterViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "flutterDependencies",
+                "printedName": "flutterDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDependencies",
+                    "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                    "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAC0dI0Cvp",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAC0dI0Cvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "Custom",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAC0dI0Cvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAC0dI0Cvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "_flutterDependencies",
+                "printedName": "_flutterDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "SwiftUI.Environment<UmoAuthSdk.Auth.FlutterDependencies>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI11EnvironmentV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV20_flutterDependencies33_DFFAACAFF305AA1521F3DAF4A445284ALL7SwiftUI11EnvironmentVyAC0dI0CGvp",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV20_flutterDependencies33_DFFAACAFF305AA1521F3DAF4A445284ALL7SwiftUI11EnvironmentVyAC0dI0CGvp",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "isInternal": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "hasStorage": true
+              },
+              {
+                "kind": "Function",
+                "name": "makeUIViewController",
+                "printedName": "makeUIViewController(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some UIKit.UIViewController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewControllerRepresentableContext",
+                    "printedName": "SwiftUI.UIViewControllerRepresentableContext<UmoAuthSdk.Auth.FlutterViewControllerRepresentable>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterViewControllerRepresentable",
+                        "printedName": "UmoAuthSdk.Auth.FlutterViewControllerRepresentable",
+                        "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV010makeUIViewF07contextQr7SwiftUI0ifG7ContextVyAEG_tF",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV010makeUIViewF07contextQr7SwiftUI0ifG7ContextVyAEG_tF",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "updateUIViewController",
+                "printedName": "updateUIViewController(_:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some UIKit.UIViewController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewControllerRepresentableContext",
+                    "printedName": "SwiftUI.UIViewControllerRepresentableContext<UmoAuthSdk.Auth.FlutterViewControllerRepresentable>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterViewControllerRepresentable",
+                        "printedName": "UmoAuthSdk.Auth.FlutterViewControllerRepresentable",
+                        "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV012updateUIViewF0_7contextyAE04makeiF0AGQr7SwiftUI0ifG7ContextVyAEG_tFQOy__Qo__ALtF",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV012updateUIViewF0_7contextyAE04makeiF0AGQr7SwiftUI0ifG7ContextVyAEG_tFQOy__Qo__ALtF",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(flutterDependencies:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterViewControllerRepresentable",
+                    "printedName": "UmoAuthSdk.Auth.FlutterViewControllerRepresentable",
+                    "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "SwiftUI.Environment<UmoAuthSdk.Auth.FlutterDependencies>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:7SwiftUI11EnvironmentV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAE7SwiftUI11EnvironmentVyAC0dI0CG_tcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV19flutterDependenciesAE7SwiftUI11EnvironmentVyAC0dI0CG_tcfc",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Nonisolated"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterViewControllerRepresentable",
+                    "printedName": "UmoAuthSdk.Auth.FlutterViewControllerRepresentable",
+                    "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableVAEycfc",
+                "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableVAEycfc",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV",
+            "mangledName": "$s10UmoAuthSdk0B0C34FlutterViewControllerRepresentableV",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UIViewControllerRepresentable",
+                "printedName": "UIViewControllerRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "UIViewControllerType",
+                    "printedName": "UIViewControllerType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some UIKit.UIViewController"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Coordinator",
+                    "printedName": "Coordinator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+                "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "FlutterDependencies",
+            "printedName": "FlutterDependencies",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "flutterEngine",
+                "printedName": "flutterEngine",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC13flutterEngineSo0dG0Cvp",
+                "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC13flutterEngineSo0dG0Cvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEngine",
+                        "printedName": "Flutter.FlutterEngine",
+                        "usr": "c:objc(cs)FlutterEngine"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC13flutterEngineSo0dG0Cvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC13flutterEngineSo0dG0Cvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent",
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDependencies",
+                    "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                    "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesCAEycfc",
+                "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesCAEycfc",
+                "moduleName": "UmoAuthSdk",
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "_$observationRegistrar",
+                "printedName": "_$observationRegistrar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservationRegistrar",
+                    "printedName": "Observation.ObservationRegistrar",
+                    "usr": "s:11Observation0A9RegistrarV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC22_$observationRegistrar33_DFFAACAFF305AA1521F3DAF4A445284ALL11Observation0mG0Vvp",
+                "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC22_$observationRegistrar33_DFFAACAFF305AA1521F3DAF4A445284ALL11Observation0mG0Vvp",
+                "moduleName": "UmoAuthSdk",
+                "isInternal": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "Custom"
+                ],
+                "fixedbinaryorder": 1,
+                "isLet": true,
+                "hasStorage": true
+              },
+              {
+                "kind": "Function",
+                "name": "access",
+                "printedName": "access(keyPath:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<UmoAuthSdk.Auth.FlutterDependencies, τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC6access7keyPathys03KeyH0CyAExG_tlF",
+                "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC6access7keyPathys03KeyH0CyAExG_tlF",
+                "moduleName": "UmoAuthSdk",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Member>",
+                "isOpen": true,
+                "declAttributes": [
+                  "Nonisolated",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withMutation",
+                "printedName": "withMutation(keyPath:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<UmoAuthSdk.Auth.FlutterDependencies, τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() throws -> τ_0_1",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC12withMutation7keyPath_q_s03KeyI0CyAExG_q_yKXEtKr0_lF",
+                "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC12withMutation7keyPath_q_s03KeyI0CyAExG_q_yKXEtKr0_lF",
+                "moduleName": "UmoAuthSdk",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Member, MutationResult>",
+                "isOpen": true,
+                "declAttributes": [
+                  "Rethrows",
+                  "Nonisolated",
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC",
+            "mangledName": "$s10UmoAuthSdk0B0C19FlutterDependenciesC",
+            "moduleName": "UmoAuthSdk",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Observable",
+                "printedName": "Observable",
+                "usr": "s:11Observation10ObservableP",
+                "mangledName": "$s11Observation10ObservableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "WrapperView",
+            "printedName": "WrapperView",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "flutterDependencies",
+                "printedName": "flutterDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDependencies",
+                    "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                    "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvp",
+                "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "ProjectedValueProperty",
+                  "Custom"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvs",
+                    "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0Cvs",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "intro_Macosx": "10.15",
+                    "intro_iOS": "13.0",
+                    "intro_tvOS": "13.0",
+                    "intro_watchOS": "6.0",
+                    "declAttributes": [
+                      "Available",
+                      "Available",
+                      "Available",
+                      "Available"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0CvM",
+                    "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAC07FlutterG0CvM",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "intro_Macosx": "10.15",
+                    "intro_iOS": "13.0",
+                    "intro_tvOS": "13.0",
+                    "intro_watchOS": "6.0",
+                    "declAttributes": [
+                      "Available",
+                      "Available",
+                      "Available",
+                      "Available"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "$flutterDependencies",
+                "printedName": "$flutterDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<UmoAuthSdk.Auth.FlutterDependencies>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterDependencies",
+                        "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                        "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewV20$flutterDependencies7SwiftUI7BindingVyAC07FlutterG0CGvp",
+                "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV20$flutterDependencies7SwiftUI7BindingVyAC07FlutterG0CGvp",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<UmoAuthSdk.Auth.FlutterDependencies>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FlutterDependencies",
+                            "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                            "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV20$flutterDependencies7SwiftUI7BindingVyAC07FlutterG0CGvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV20$flutterDependencies7SwiftUI7BindingVyAC07FlutterG0CGvg",
+                    "moduleName": "UmoAuthSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewV4bodyQrvp",
+                "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV4bodyQrvp",
+                "moduleName": "UmoAuthSdk",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV4bodyQrvg",
+                    "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV4bodyQrvg",
+                    "moduleName": "UmoAuthSdk",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(flutterDependencies:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WrapperView",
+                    "printedName": "UmoAuthSdk.Auth.WrapperView",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDependencies",
+                    "printedName": "UmoAuthSdk.Auth.FlutterDependencies",
+                    "hasDefaultArg": true,
+                    "usr": "s:10UmoAuthSdk0B0C19FlutterDependenciesC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAeC07FlutterG0C_tcfc",
+                "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV19flutterDependenciesAeC07FlutterG0C_tcfc",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Nonisolated"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WrapperView",
+                    "printedName": "UmoAuthSdk.Auth.WrapperView",
+                    "usr": "s:10UmoAuthSdk0B0C11WrapperViewV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10UmoAuthSdk0B0C11WrapperViewVAEycfc",
+                "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewVAEycfc",
+                "moduleName": "UmoAuthSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10UmoAuthSdk0B0C11WrapperViewV",
+            "mangledName": "$s10UmoAuthSdk0B0C11WrapperViewV",
+            "moduleName": "UmoAuthSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10UmoAuthSdk0B0C",
+        "mangledName": "$s10UmoAuthSdk0B0C",
+        "moduleName": "UmoAuthSdk",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/212198\/Documents\/GitHub\/services\/src\/umo-authsdk\/ios\/UmoAuthSdk\/UmoAuthSdk\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/212198\/Documents\/GitHub\/services\/src\/umo-authsdk\/ios\/UmoAuthSdk\/UmoAuthSdk\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 19,
+      "value": "\"my flutter engine\""
+    }
+  ]
+}
