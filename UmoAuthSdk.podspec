@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UmoAuthSdk'
-    s.version          = '0.0.5'
+    s.version          = '0.0.6'
     s.summary          = 'Umo auth sdk module for passenger authentication'
     s.homepage         = 'https://github.com/cts-platforms/services'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     #s.source_files     = 'UmoAuthSdk/*'
     # Specify the Flutter and App XCFrameworks
     s.vendored_frameworks = [
-      'dist/UmoAuthSdk/Flutter.framework',
-      'dist/UmoAuthSdk/App.framework',
-      'dist/UmoAuthSdk/UmoAuthSdk.framework',
+      'dist/UmoAuthSdk/Flutter.xcframework',
+      'dist/UmoAuthSdk/App.xcframework',
+      'dist/UmoAuthSdk/UmoAuthSdk.xcframework',
       'dist/UmoAuthSdk/amplify_auth_cognito.xcframework',
       'dist/UmoAuthSdk/amplify_secure_storage.xcframework',
       'dist/UmoAuthSdk/device_info_plus.xcframework',
