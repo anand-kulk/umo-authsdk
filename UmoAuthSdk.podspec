@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = 'UmoAuthSdk'
-    s.version          = '0.0.3'
+    s.version          = '0.0.4'
     s.summary          = 'Umo auth sdk module for passenger authentication'
     s.homepage         = 'https://github.com/cts-platforms/services'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
     s.author           = { 'anand-kulk' => 'anand.kulkarni@cubic.com' }
     s.platform         = :ios, '12.0'
-    s.source           = { :git => "https://github.com:anand-kulk/umo-authsdk.git", :tag => s.version } 
+    s.source           = { :git => "https://github.com/anand-kulk/umo-authsdk.git", :tag => s.version } 
     #s.source_files     = 'UmoAuthSdk/*'
     # Specify the Flutter and App XCFrameworks
     s.vendored_frameworks = [
