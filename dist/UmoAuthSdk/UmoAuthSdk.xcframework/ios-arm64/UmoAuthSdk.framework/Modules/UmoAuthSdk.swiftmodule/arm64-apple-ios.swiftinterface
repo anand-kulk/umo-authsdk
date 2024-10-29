@@ -9,30 +9,23 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct AuthResponse {
+}
+public struct User {
+}
+public struct RefreshTokenResult {
+}
+@_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s10UmoAuthSdk11WrapperViewV4bodyQrvp", 0) __
+}
 public class Auth {
-  public struct Response<T> {
-    public var success: Swift.Bool
-    public var errorMessage: Swift.String?
-    public var response: T?
-  }
-  public struct LoginResult {
-    public var username: Swift.String?
-  }
-  public struct RefreshTokenResult {
-  }
-  public struct ThemeOptions {
-    public init(argbBackgroundColor: Swift.String)
-  }
-  final public let flutterView: UmoAuthSdk.Auth.WrapperView
-  public var loginHandler: ((UmoAuthSdk.Auth.Response<UmoAuthSdk.Auth.LoginResult>) -> Swift.Void)?
+  final public let flutterView: UmoAuthSdk.WrapperView
+  public var loginCompletion: ((Swift.Result<UmoAuthSdk.AuthResponse, any Swift.Error>) -> Swift.Void)?
   public init()
-  @_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    public typealias Body = @_opaqueReturnTypeOf("$s10UmoAuthSdk0B0C11WrapperViewV4bodyQrvp", 0) __
-  }
   @objc deinit
 }
-extension UmoAuthSdk.Auth.WrapperView : Swift.Sendable {}
+extension UmoAuthSdk.WrapperView : Swift.Sendable {}

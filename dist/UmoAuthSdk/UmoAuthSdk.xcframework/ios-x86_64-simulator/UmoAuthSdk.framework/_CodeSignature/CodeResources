@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		0HSjRcoINFfBpgmv9fDJh/VJmgM=
-		</data>
-		<key>Frameworks/.DS_Store</key>
-		<data>
-		gam6m2QybJbEIf+YOgP+0QOa9Ks=
-		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
 		8yRm0cL9QQsE4AlJf/1HiUU0CaA=
@@ -162,7 +154,7 @@
 		</data>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/Pods_UmoAuthSdk</key>
 		<data>
-		SEAxqMLxfV5u/hCVDvDWGjLjOOQ=
+		F92+3wPhjhvgyAS1JkvpIG4iFxQ=
 		</data>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -270,15 +262,15 @@
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		A3KEzC/FqE/gpXeU+4eDIg9oe+8=
+		55FpxaG0xlERYik214vpZiq47A8=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JfMNhFDYMkbiDITCNJvY6VaK7n4=
+		btYu0b3oik2BQx+EDzM1FIbwkdQ=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QhlB1aiycyGQ527PtAquG8LQdp0=
+		MKbGgibpz1Pb1KWq6pa/XSgVXYo=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -286,11 +278,11 @@
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QhlB1aiycyGQ527PtAquG8LQdp0=
+		MKbGgibpz1Pb1KWq6pa/XSgVXYo=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ncIWHTA1B8ZZHW9lC7QctPPvFkY=
+		r8yzn7eT8KuKjTQB7msViXyaFe8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -562,7 +554,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f0jjHRfdGXfn3dOPlUxCTjzH7ReKHuBxCkCzkUoD3aE=
+			AQ2Z1mEE/+CnZVYM2Z02bsRGiQw3RzlHN+vOIn2xF7M=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/_CodeSignature/CodeResources</key>
@@ -744,21 +736,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LMbU+xBoB9CJ4oaP6wA21F9vXQ3Wfp8jR3emKo2OuGc=
+			WLZYbBUjMFEmny1k0fbo81JJIC3jswZnZwPLTYIHmT4=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			paEkmtca3mneaRSOiCcf/wVumnt4wzBaimjzZsJ88z4=
+			TQFocYBFLlfQDHKZLnNQ5+vv98rSUEuqZMUhEpdqV7U=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1UGgI6wuRL7KR/O2EqF69/tDDsDO/KyOztjW01mupt8=
+			roe8WjKWLm0MMu3m6w7iM8AwBzwwqIFAvBdX3ZoOxNQ=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -772,14 +764,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1UGgI6wuRL7KR/O2EqF69/tDDsDO/KyOztjW01mupt8=
+			roe8WjKWLm0MMu3m6w7iM8AwBzwwqIFAvBdX3ZoOxNQ=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wf1fpRkFhrsRMLEJQjeDvOMPcjn7OjRBf0uthMlz9Lc=
+			lzyhBlqDzIiVT300UfAbPhveg3WEtmAZabiEm8q8jvc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
