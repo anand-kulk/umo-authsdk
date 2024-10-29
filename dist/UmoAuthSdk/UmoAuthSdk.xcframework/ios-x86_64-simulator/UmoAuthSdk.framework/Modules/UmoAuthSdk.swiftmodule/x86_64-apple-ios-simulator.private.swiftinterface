@@ -10,8 +10,14 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct AuthResponse {
+  public var user: UmoAuthSdk.User
+  public var accessToken: Swift.String
+  public var refreshToken: Swift.String
 }
 public struct User {
+  public let username: Swift.String
+  public let email: Swift.String?
+  public let phone: Swift.String?
 }
 public struct RefreshTokenResult {
 }

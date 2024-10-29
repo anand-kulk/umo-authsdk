@@ -26,7 +26,8 @@
             "mangledName": "$s10UmoAuthSdk0B8ResponseV4userAA4UserVvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -110,7 +111,8 @@
             "mangledName": "$s10UmoAuthSdk0B8ResponseV11accessTokenSSvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -194,7 +196,8 @@
             "mangledName": "$s10UmoAuthSdk0B8ResponseV12refreshTokenSSvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -346,7 +349,8 @@
             "mangledName": "$s10UmoAuthSdk4UserV8usernameSSvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -397,7 +401,8 @@
             "mangledName": "$s10UmoAuthSdk4UserV5emailSSSgvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -456,7 +461,8 @@
             "mangledName": "$s10UmoAuthSdk4UserV5phoneSSSgvp",
             "moduleName": "UmoAuthSdk",
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
