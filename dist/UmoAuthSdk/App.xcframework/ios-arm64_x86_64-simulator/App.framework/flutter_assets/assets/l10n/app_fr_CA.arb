@@ -522,7 +522,6 @@
   "letsGetYouStarted": "Commençons!",
   "weSentItTo": "Nous avons envoyé le code de confirmation par message texte à",
   "pleaseEnterValidEmailAddress": "Veuillez entrer une adresse courriel valide.",
-  "createAccountWithEmail": "Créer un compte avec courriel",
   "unableToConvertCardPageText": "Nous ne sommes pas en mesure de convertir votre carte car votre numéro de téléphone mobile est déjà enregistré. Vous pouvez créer un compte avec courriel ou contacter l’assistance.",
   "cardIsAssociatedWithUser": "Connectez-vous pour convertir votre carte.",
   "errorPageHeader": "Mauvaise direction...",
@@ -591,7 +590,7 @@
   "enterYourCardNumberText": "Saisissez le numéro de carte à 16 ou 19 chiffres indiqué au dos de votre carte.",
   "wheresMyCardNumber": "Où est mon numéro de carte?",
   "createAccountWithMobilePhone": "Créer un compte avec le numéro de téléphone mobile",
-  "createAccountWithEmailAlt": "Créer un compte avec courriel",
+  "createAccountWithEmail": "Créer un compte avec courriel",
   "contactYourTransitAgency": "Communiquez avec votre société de transport.",
   "goBackTo": "Retourner à {pageName}",
   "@goBackTo": {

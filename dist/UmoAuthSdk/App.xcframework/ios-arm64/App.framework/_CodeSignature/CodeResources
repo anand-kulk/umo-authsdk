@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		vozwbyZfBYnhfa4MC/2DEjpP6b0=
+		cLuiSMpWFkeaVmCjkzW3fSMWiRc=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		uIc/gcOi0c/GDVbnFDeAjpg9pWY=
+		4k+myfYt2C3Pi5qD+rB7fkapcZk=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -28,6 +28,10 @@
 		<data>
 		CHSKD+TZz9wYDnRwE9zgSmBYTQc=
 		</data>
+		<key>flutter_assets/assets/images/arrow-back.png</key>
+		<data>
+		B1kSEvdelhq4WEBaqME3dNFVB0Q=
+		</data>
 		<key>flutter_assets/assets/images/card-green.png</key>
 		<data>
 		SijeGqGORUbJbLTXvMg5GZmSZPk=
@@ -36,17 +40,33 @@
 		<data>
 		nH+YfHmjWz+QH/eNWcZmKanyIr0=
 		</data>
+		<key>flutter_assets/assets/images/email.png</key>
+		<data>
+		0wks+Bllwd7vl8G47M3dniDn2Cs=
+		</data>
 		<key>flutter_assets/assets/images/globe.png</key>
 		<data>
 		0k481Zkt93ShU9Mh7vzVrKaxEGQ=
+		</data>
+		<key>flutter_assets/assets/images/mobile.png</key>
+		<data>
+		t/uKq9ido6jsEzEc5iCU94OGT30=
 		</data>
 		<key>flutter_assets/assets/images/new-account.png</key>
 		<data>
 		CFJMgF8taF8lKVAo4TEWg4AzI5g=
 		</data>
+		<key>flutter_assets/assets/images/register-card.png</key>
+		<data>
+		ttCbFrcX3e3Y569O5CcKNC4JFJg=
+		</data>
 		<key>flutter_assets/assets/images/shape-stroke.png</key>
 		<data>
 		hlofu3QH3DACKydg3YdAHj6nnH0=
+		</data>
+		<key>flutter_assets/assets/images/touchpass-umo-cards.png</key>
+		<data>
+		qErz5I9/6KOlTlV9q1ptEv9bZcA=
 		</data>
 		<key>flutter_assets/assets/images/umoji-smile-mint.png</key>
 		<data>
@@ -58,27 +78,27 @@
 		</data>
 		<key>flutter_assets/assets/l10n/app_en.arb</key>
 		<data>
-		Kx75DDWCG/nKZIHyexVHsmP783o=
+		j/w3CbbjlkWAviAEywqcOMLI4Rk=
 		</data>
 		<key>flutter_assets/assets/l10n/app_es.arb</key>
 		<data>
-		anV45lgDZaqWy4IMceuyKBetHS8=
+		0fJhqn2nH73tEdkA77aHpEs4FjU=
 		</data>
 		<key>flutter_assets/assets/l10n/app_es_CL.arb</key>
 		<data>
-		pxvR7+9cpXoJISzIYBr4K4z9aVY=
+		R8x0bkKS+zj2LO7GoSoh+KkGNUI=
 		</data>
 		<key>flutter_assets/assets/l10n/app_es_PR.arb</key>
 		<data>
-		XxH/qBcbx4jYj/I0FdPbHyti3UM=
+		o1JnTS5AmkVYIT82rg9zdJHMPC4=
 		</data>
 		<key>flutter_assets/assets/l10n/app_fr.arb</key>
 		<data>
-		yRJt516FcEL9n7cbbijAFsIh8ZM=
+		C6fP/czMp6B5NmfOFiB0+pfrsaw=
 		</data>
 		<key>flutter_assets/assets/l10n/app_fr_CA.arb</key>
 		<data>
-		LoEU9xMJb83lDdLfP45LyARgxq4=
+		Zcr3t4SCSGr4qXhqMBrYonHFl3w=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -90,7 +110,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		kV0WLdoCNh/MOG4zorSi9D0JYE0=
+		ApDF8Aa7mAcs7+y0WaTvqdnzdrY=
 		</data>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
 		<data>
@@ -127,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1orAoxO8NZC8mor6S+C4gp8gnTrM03RqvFf5BG04XuE=
+			G4im30xzyZ1XYb8DqMUehcBBRMpoL+n9lPOFJAUuNw0=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m2H+8ZF185POl9hUsboSrZsmqpnnB/o0gijojsvLKHA=
+			GFMQFuIvvi6/gEvSRdGzRGzVsBjoy89n+CZWiVka/zE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -158,6 +178,13 @@
 			vgmli4osH29o8YyqrHa6OmlQgU8Dln4dY20xDrrHwQw=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/arrow-back.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OTCaVamU8PB/hEm+UjhRvy2CkzXdjQ/pHWd2EgzOVXU=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/card-green.png</key>
 		<dict>
 			<key>hash2</key>
@@ -172,11 +199,25 @@
 			xdeRwA89bSqTxcvlccbGTde8yoWqcRGob0voELk15aM=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/email.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iKJrw3QSmvBf1PBQkbVXXgLUN8PyoTXEA+T14baVv2Y=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/globe.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OJkkcvfmG7daiwfyXxD92y1+Cw4FGEurZxFMGwYryLA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/mobile.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U+kquAYa0eUeOqiX7Nqyeqj6Y9PBlxu1Vqp2KU5isJ4=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/new-account.png</key>
@@ -186,11 +227,25 @@
 			dWu5O1/CtXCO3SXjjPQHhZeyUD2+2fC7T+AjevQ3MJc=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/register-card.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jaze6KV272Q6u/L1tnNyPVkn3dhqUPl16YPi4On4I90=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/shape-stroke.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eR5xjHkVtc3Byx9HpWlt37PYEoK37gnpsot5TbAiz9s=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/touchpass-umo-cards.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rzeRnqGNhhz7Yg0BaZwD/QRmhqABJPRUn5jcUhgNyQ4=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/umoji-smile-mint.png</key>
@@ -211,42 +266,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KevFvXKMzMMIin9WbxpzBZy7OZ0nLv0zISKSZjWXVeo=
+			RHuozGFmQycUJDjE9ozMF9qfgLLp86UjIjKArKxhSAU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/l10n/app_es.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BX6OnF1VmVNhR2eg4s43DF6OuMb5eAWjFWpIB/1aNFw=
+			KF0jr5jWKdTGHhVVBpZlAWid770fmXM/01oTTYe2rkw=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/l10n/app_es_CL.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LwWXT1HD10OGZBq7W60uJ5MrC0It9rCxrX012x2BA9A=
+			PMXBKQl6gd487c14NohslDtJWVan+QAe7ao61tafws8=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/l10n/app_es_PR.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hJ7uKTKLN2NxR58ogsstgc7hZfzuOc3SrDw9nbYOz3s=
+			P2KZZGZWcILjowX4PFY7Qc8QFY5xYgb+h63EiHc3tyA=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/l10n/app_fr.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9S0MJ+ZhSAsdXV1sEmQadQdOsiErE1lqhwXjoDzC6sU=
+			3oXYWmrY8A9mehVMLWqpENoXENF1lwd2XdpeGPD2F/I=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/l10n/app_fr_CA.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YOaekSzDEF3I32whF9Pt0f03N47sHM3GkFPIHRDz4/4=
+			M7PI2ltitdWvWIGCWPOz2puGZX5ZACCtNI0GwH/5xMA=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -267,7 +322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHesiyfXcZIeFnPeJevorzw6pGTdFVJ/rNgK8niHHsc=
+			WzC9o3FOd/nB2a+Ges3DCegm9lxyIloBNVAAt7dnJ1Q=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
