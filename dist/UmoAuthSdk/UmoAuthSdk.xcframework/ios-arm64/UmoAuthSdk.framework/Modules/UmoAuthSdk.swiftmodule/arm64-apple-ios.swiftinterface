@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name UmoAuthSdk
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name UmoAuthSdk
 import Flutter
+import FlutterPluginRegistrant
 import Foundation
 import Swift
 import SwiftUI
@@ -9,6 +10,25 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s10UmoAuthSdk11WrapperViewV4bodyQrvp", 0) __
+}
+public class Auth {
+  final public let flutterView: UmoAuthSdk.WrapperView
+  public var loginCompletion: ((Swift.Result<UmoAuthSdk.AuthResponse, any Swift.Error>) -> Swift.Void)?
+  public init(config: UmoAuthSdk.AuthConfig)
+  @objc deinit
+}
+public struct AuthConfig {
+  public let umoIdpUrl: Swift.String
+  public let umoApiUrl: Swift.String?
+  public let apiToken: Swift.String?
+  public init(umoIdpUrl: Swift.String, umoApiUrl: Swift.String?, apiToken: Swift.String?)
+}
 public struct AuthResponse {
   public var user: UmoAuthSdk.User
   public var accessToken: Swift.String
@@ -20,18 +40,5 @@ public struct User {
   public let phone: Swift.String?
 }
 public struct RefreshTokenResult {
-}
-@_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-  public typealias Body = @_opaqueReturnTypeOf("$s10UmoAuthSdk11WrapperViewV4bodyQrvp", 0) __
-}
-public class Auth {
-  final public let flutterView: UmoAuthSdk.WrapperView
-  public var loginCompletion: ((Swift.Result<UmoAuthSdk.AuthResponse, any Swift.Error>) -> Swift.Void)?
-  public init()
-  @objc deinit
 }
 extension UmoAuthSdk.WrapperView : Swift.Sendable {}

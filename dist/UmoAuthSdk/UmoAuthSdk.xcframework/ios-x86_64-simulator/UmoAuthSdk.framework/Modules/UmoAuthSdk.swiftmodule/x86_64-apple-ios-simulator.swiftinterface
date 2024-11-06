@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name UmoAuthSdk
 import Flutter
+import FlutterPluginRegistrant
 import Foundation
 import Swift
 import SwiftUI
@@ -21,6 +22,12 @@ public struct User {
 }
 public struct RefreshTokenResult {
 }
+public struct AuthConfig {
+  public let umoIdpUrl: Swift.String
+  public let umoApiUrl: Swift.String?
+  public let apiToken: Swift.String?
+  public init(umoIdpUrl: Swift.String, umoApiUrl: Swift.String?, apiToken: Swift.String?)
+}
 @_Concurrency.MainActor @preconcurrency public struct WrapperView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -31,7 +38,7 @@ public struct RefreshTokenResult {
 public class Auth {
   final public let flutterView: UmoAuthSdk.WrapperView
   public var loginCompletion: ((Swift.Result<UmoAuthSdk.AuthResponse, any Swift.Error>) -> Swift.Void)?
-  public init()
+  public init(config: UmoAuthSdk.AuthConfig)
   @objc deinit
 }
 extension UmoAuthSdk.WrapperView : Swift.Sendable {}

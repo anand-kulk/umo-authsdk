@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
     # Specify the Flutter and App XCFrameworks
     s.vendored_frameworks = [
       'dist/UmoAuthSdk/Flutter.xcframework',
+      'dist/UmoAuthSdk/FlutterPluginRegistrant.xcframework',
       'dist/UmoAuthSdk/App.xcframework',
       'dist/UmoAuthSdk/UmoAuthSdk.xcframework',
       'dist/UmoAuthSdk/amplify_auth_cognito.xcframework',

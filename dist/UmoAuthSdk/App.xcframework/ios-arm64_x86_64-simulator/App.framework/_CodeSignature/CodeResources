@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		QJETILOPBwjioLrmTLs9PY5FL+s=
+		h5OB7aKzS5WR9SemvZAyN6FEkJs=
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -110,15 +110,15 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		ApDF8Aa7mAcs7+y0WaTvqdnzdrY=
+		LtbQNDyxMilOFCX2NJ0YVry/hXo=
 		</data>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
 		<data>
-		Spe+S5z5BaCS7ziTG/hi5j+ZdVI=
+		7b+JYR1l8xdmkcF1XvzC662O06s=
 		</data>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js.map</key>
 		<data>
-		M78PId7zdkYfiPEaBdpv14EvGPY=
+		xKiNdkh9X2tUT9V3w9z6K9wedR4=
 		</data>
 		<key>flutter_assets/packages/amplify_secure_storage_dart/lib/src/worker/workers.min.js</key>
 		<data>
@@ -322,21 +322,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WzC9o3FOd/nB2a+Ges3DCegm9lxyIloBNVAAt7dnJ1Q=
+			Wb/HpJJyOBkqwOe6Lrb/yA6asjvrfkMzdBYAsKPphEc=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Es4FnXKCg2wbquGGbYvYO1nUEh8ErZ7XyVEooWKUAeI=
+			gRsIIgh0KLouooAZMNbsyx4cI4X0hiA8rtkBdFr4KsM=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js.map</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucrk+IefpSn4UkcwgQvkS9+dp+DSt+lYAKRXniYuIuM=
+			yfgmvGpmOXp3kSY3UfA3wtpwayN+5SlXdTwB5ndSWvw=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/amplify_secure_storage_dart/lib/src/worker/workers.min.js</key>

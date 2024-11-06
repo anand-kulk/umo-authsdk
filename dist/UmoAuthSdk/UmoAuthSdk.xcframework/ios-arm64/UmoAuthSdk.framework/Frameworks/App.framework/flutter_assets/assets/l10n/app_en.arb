@@ -522,7 +522,6 @@
   "letsGetYouStarted": "Let's get you started!",
   "weSentItTo": "We sent the confirmation code via text message to",
   "pleaseEnterValidEmailAddress": "Please enter a valid email address.",
-  "createAccountWithEmail": "Create Account with Email",
   "unableToConvertCardPageText": "We are unable to convert your card because your mobile number is already registered. You may create an account with email or contact support.",
   "cardIsAssociatedWithUser": "Sign in to convert your card",
   "errorPageHeader": "Wrong turn...",
@@ -591,7 +590,7 @@
   "enterYourCardNumberText": "Enter the 16- or 19-digit card number found on the back of your card.",
   "wheresMyCardNumber": "Where's my card number?",
   "createAccountWithMobilePhone": "Create account with mobile phone",
-  "createAccountWithEmailAlt": "Create account with email",
+  "createAccountWithEmail": "Create account with email",
   "contactYourTransitAgency": "Contact your transit agency",
   "goBackTo": "Go back to {pageName}",
   "@goBackTo": {

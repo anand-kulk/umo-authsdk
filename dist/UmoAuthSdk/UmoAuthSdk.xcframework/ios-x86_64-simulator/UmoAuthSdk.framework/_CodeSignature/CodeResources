@@ -6,23 +6,23 @@
 	<dict>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		8yRm0cL9QQsE4AlJf/1HiUU0CaA=
+		t5LF3KDkpVQg1xpNGvMpXsb7LoM=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
-		QJETILOPBwjioLrmTLs9PY5FL+s=
+		h5OB7aKzS5WR9SemvZAyN6FEkJs=
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tFoJkDOWrW/BFmLo7Oe6Vt6VkI4=
+		L5d8SV4k4fBIQzav/D5PcVF3KeU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		vozwbyZfBYnhfa4MC/2DEjpP6b0=
+		cLuiSMpWFkeaVmCjkzW3fSMWiRc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		uIc/gcOi0c/GDVbnFDeAjpg9pWY=
+		4k+myfYt2C3Pi5qD+rB7fkapcZk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -36,6 +36,10 @@
 		<data>
 		CHSKD+TZz9wYDnRwE9zgSmBYTQc=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/arrow-back.png</key>
+		<data>
+		B1kSEvdelhq4WEBaqME3dNFVB0Q=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/card-green.png</key>
 		<data>
 		SijeGqGORUbJbLTXvMg5GZmSZPk=
@@ -44,17 +48,33 @@
 		<data>
 		nH+YfHmjWz+QH/eNWcZmKanyIr0=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/email.png</key>
+		<data>
+		0wks+Bllwd7vl8G47M3dniDn2Cs=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/globe.png</key>
 		<data>
 		0k481Zkt93ShU9Mh7vzVrKaxEGQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/mobile.png</key>
+		<data>
+		t/uKq9ido6jsEzEc5iCU94OGT30=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/new-account.png</key>
 		<data>
 		CFJMgF8taF8lKVAo4TEWg4AzI5g=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/register-card.png</key>
+		<data>
+		ttCbFrcX3e3Y569O5CcKNC4JFJg=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/shape-stroke.png</key>
 		<data>
 		hlofu3QH3DACKydg3YdAHj6nnH0=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/touchpass-umo-cards.png</key>
+		<data>
+		qErz5I9/6KOlTlV9q1ptEv9bZcA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/umoji-smile-mint.png</key>
 		<data>
@@ -66,27 +86,27 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_en.arb</key>
 		<data>
-		Kx75DDWCG/nKZIHyexVHsmP783o=
+		j/w3CbbjlkWAviAEywqcOMLI4Rk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es.arb</key>
 		<data>
-		anV45lgDZaqWy4IMceuyKBetHS8=
+		0fJhqn2nH73tEdkA77aHpEs4FjU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es_CL.arb</key>
 		<data>
-		pxvR7+9cpXoJISzIYBr4K4z9aVY=
+		R8x0bkKS+zj2LO7GoSoh+KkGNUI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es_PR.arb</key>
 		<data>
-		XxH/qBcbx4jYj/I0FdPbHyti3UM=
+		o1JnTS5AmkVYIT82rg9zdJHMPC4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_fr.arb</key>
 		<data>
-		yRJt516FcEL9n7cbbijAFsIh8ZM=
+		C6fP/czMp6B5NmfOFiB0+pfrsaw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_fr_CA.arb</key>
 		<data>
-		LoEU9xMJb83lDdLfP45LyARgxq4=
+		Zcr3t4SCSGr4qXhqMBrYonHFl3w=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -98,15 +118,15 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		kV0WLdoCNh/MOG4zorSi9D0JYE0=
+		LtbQNDyxMilOFCX2NJ0YVry/hXo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
 		<data>
-		Spe+S5z5BaCS7ziTG/hi5j+ZdVI=
+		7b+JYR1l8xdmkcF1XvzC662O06s=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js.map</key>
 		<data>
-		M78PId7zdkYfiPEaBdpv14EvGPY=
+		xKiNdkh9X2tUT9V3w9z6K9wedR4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_secure_storage_dart/lib/src/worker/workers.min.js</key>
 		<data>
@@ -148,13 +168,25 @@
 		<data>
 		ipm8hg7aB3LzsfShJfpNR0QQ4hw=
 		</data>
+		<key>Frameworks/FlutterPluginRegistrant.framework/FlutterPluginRegistrant</key>
+		<data>
+		cPNEtJRNOVY8TIfUnPYSQDRkabE=
+		</data>
+		<key>Frameworks/FlutterPluginRegistrant.framework/Info.plist</key>
+		<data>
+		qNkzxAOZ+xuSZOE7FKvyP7ppnEs=
+		</data>
+		<key>Frameworks/FlutterPluginRegistrant.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/PGR0G4ssu8V98lC5C+GeXM0/mw=
+		</data>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/Info.plist</key>
 		<data>
 		itAfa+CqIDOQK5seLwVLckJQZIo=
 		</data>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/Pods_UmoAuthSdk</key>
 		<data>
-		LrqLJeZQ2h+rVf3pT5rctrY51Tw=
+		dncsQNEZToODr/MRjOOSRjvyOIg=
 		</data>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -170,7 +202,7 @@
 		</data>
 		<key>Frameworks/amplify_auth_cognito.framework/amplify_auth_cognito</key>
 		<data>
-		UcCaWCQ8w3SI0kDOsLmFIlKjOJQ=
+		itmtD58IsVOSDj/O6UCgAtL1G3w=
 		</data>
 		<key>Frameworks/amplify_secure_storage.framework/Info.plist</key>
 		<data>
@@ -182,7 +214,7 @@
 		</data>
 		<key>Frameworks/amplify_secure_storage.framework/amplify_secure_storage</key>
 		<data>
-		IKU0p/EB5SRzX7IUMbluWSNHUrA=
+		hMT1q4vo3pFnAnYvZ01uViTeg5I=
 		</data>
 		<key>Frameworks/amplify_secure_storage.framework/amplify_secure_storage_privacy.bundle/Info.plist</key>
 		<data>
@@ -202,7 +234,7 @@
 		</data>
 		<key>Frameworks/device_info_plus.framework/device_info_plus</key>
 		<data>
-		2j4kmI1wuy/W8ZIwaLfZSE5eI2k=
+		b0hKGU53fxDWGBxopthw+a06/b4=
 		</data>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/Info.plist</key>
 		<data>
@@ -222,7 +254,7 @@
 		</data>
 		<key>Frameworks/package_info_plus.framework/package_info_plus</key>
 		<data>
-		qoI36irN8dFkkl5VH3Znh5o2i1Q=
+		VzTeZQbC+MC6w006E+x/KmaF3AI=
 		</data>
 		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
 		<data>
@@ -242,7 +274,7 @@
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
 		<data>
-		EYs2EQr29wJl0ZJUw4NwQKtR230=
+		/d0hcp5obpqSYJnRFvaHRYsWPiY=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
 		<data>
@@ -254,7 +286,7 @@
 		</data>
 		<key>Headers/UmoAuthSdk.h</key>
 		<data>
-		SKvWBheHQEhK+6HHdKTp4HqMCwg=
+		1eUQ8HM1qyYEhlEBPHTfZ60EVOQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -262,15 +294,15 @@
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		mb37ry76k1pUeKOogLis25T1+3o=
+		d0nKMs8H0h29h3rU6nsN7YLule4=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HkrR/0/PGwUv4sZOv9A7nRX+F/s=
+		QIuZBrNpG2CPQJFxpoyyJ0ypFuw=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9U7a/YYtaZZI0EyEsldPvmnGWUA=
+		kTGNdR/VlgMrNAvKzqoXP1UFKTw=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -278,11 +310,11 @@
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9U7a/YYtaZZI0EyEsldPvmnGWUA=
+		kTGNdR/VlgMrNAvKzqoXP1UFKTw=
 		</data>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TlpDFMU0FVf2qeFT3nk5ymlMUSQ=
+		/z3bCpCs6o1g9aekRveLg1hS1/0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -295,35 +327,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWA9Ra84v0DlVOn30XFfdxg1+D7BQhlTVkh3l8KvpEo=
+			ZLF9xsOEoeinRWr/6lBZX/E0YP9WWPtjeP+YUB8gDdM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UwlCbyKnTJE10J3kmzEM5xdL5NN4r4RLcLeMFPqHInk=
+			SES+IrctFtb2ATzloiQHKMcw7x/vnPQ6XFUZixhhSAI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jcTXA/Qxx1eVyrV4v3ULjK4nk/IUKI9pI+qpYUja/5g=
+			WBsH/ZLhNmDNfkjJ99mr06sIgBhRtf1IMzbAHquG0eA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1orAoxO8NZC8mor6S+C4gp8gnTrM03RqvFf5BG04XuE=
+			G4im30xzyZ1XYb8DqMUehcBBRMpoL+n9lPOFJAUuNw0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m2H+8ZF185POl9hUsboSrZsmqpnnB/o0gijojsvLKHA=
+			GFMQFuIvvi6/gEvSRdGzRGzVsBjoy89n+CZWiVka/zE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -347,6 +379,13 @@
 			vgmli4osH29o8YyqrHa6OmlQgU8Dln4dY20xDrrHwQw=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/arrow-back.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OTCaVamU8PB/hEm+UjhRvy2CkzXdjQ/pHWd2EgzOVXU=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/card-green.png</key>
 		<dict>
 			<key>hash2</key>
@@ -361,11 +400,25 @@
 			xdeRwA89bSqTxcvlccbGTde8yoWqcRGob0voELk15aM=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/email.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iKJrw3QSmvBf1PBQkbVXXgLUN8PyoTXEA+T14baVv2Y=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/globe.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OJkkcvfmG7daiwfyXxD92y1+Cw4FGEurZxFMGwYryLA=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/mobile.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U+kquAYa0eUeOqiX7Nqyeqj6Y9PBlxu1Vqp2KU5isJ4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/new-account.png</key>
@@ -375,11 +428,25 @@
 			dWu5O1/CtXCO3SXjjPQHhZeyUD2+2fC7T+AjevQ3MJc=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/register-card.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jaze6KV272Q6u/L1tnNyPVkn3dhqUPl16YPi4On4I90=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/shape-stroke.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eR5xjHkVtc3Byx9HpWlt37PYEoK37gnpsot5TbAiz9s=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/touchpass-umo-cards.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rzeRnqGNhhz7Yg0BaZwD/QRmhqABJPRUn5jcUhgNyQ4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/umoji-smile-mint.png</key>
@@ -400,42 +467,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KevFvXKMzMMIin9WbxpzBZy7OZ0nLv0zISKSZjWXVeo=
+			RHuozGFmQycUJDjE9ozMF9qfgLLp86UjIjKArKxhSAU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BX6OnF1VmVNhR2eg4s43DF6OuMb5eAWjFWpIB/1aNFw=
+			KF0jr5jWKdTGHhVVBpZlAWid770fmXM/01oTTYe2rkw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es_CL.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LwWXT1HD10OGZBq7W60uJ5MrC0It9rCxrX012x2BA9A=
+			PMXBKQl6gd487c14NohslDtJWVan+QAe7ao61tafws8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_es_PR.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hJ7uKTKLN2NxR58ogsstgc7hZfzuOc3SrDw9nbYOz3s=
+			P2KZZGZWcILjowX4PFY7Qc8QFY5xYgb+h63EiHc3tyA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_fr.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9S0MJ+ZhSAsdXV1sEmQadQdOsiErE1lqhwXjoDzC6sU=
+			3oXYWmrY8A9mehVMLWqpENoXENF1lwd2XdpeGPD2F/I=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/l10n/app_fr_CA.arb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YOaekSzDEF3I32whF9Pt0f03N47sHM3GkFPIHRDz4/4=
+			M7PI2ltitdWvWIGCWPOz2puGZX5ZACCtNI0GwH/5xMA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -456,21 +523,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHesiyfXcZIeFnPeJevorzw6pGTdFVJ/rNgK8niHHsc=
+			Wb/HpJJyOBkqwOe6Lrb/yA6asjvrfkMzdBYAsKPphEc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Es4FnXKCg2wbquGGbYvYO1nUEh8ErZ7XyVEooWKUAeI=
+			gRsIIgh0KLouooAZMNbsyx4cI4X0hiA8rtkBdFr4KsM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_auth_cognito_dart/lib/src/workers/workers.min.js.map</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucrk+IefpSn4UkcwgQvkS9+dp+DSt+lYAKRXniYuIuM=
+			yfgmvGpmOXp3kSY3UfA3wtpwayN+5SlXdTwB5ndSWvw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/amplify_secure_storage_dart/lib/src/worker/workers.min.js</key>
@@ -543,6 +610,27 @@
 			wSU3Ai74GJkae/7UGnbY1q6WL/vA5lEax2Kl0IRef3w=
 			</data>
 		</dict>
+		<key>Frameworks/FlutterPluginRegistrant.framework/FlutterPluginRegistrant</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/3saikcGez34qwVtuLVX//3OHYS7qbdISEieLpTQHag=
+			</data>
+		</dict>
+		<key>Frameworks/FlutterPluginRegistrant.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MRR00TJPJ1v4C3WeKT2cvzSj6XQGp9Gpc6qzpQFKUjs=
+			</data>
+		</dict>
+		<key>Frameworks/FlutterPluginRegistrant.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RMg+fIE/Y5AkzdAof0R2zOv2XObIItMZsDmkDBLBpuE=
+			</data>
+		</dict>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -554,7 +642,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/BropEzdEidrgrXPJgb3RIKUAdEwV5o0r9SDlWGFfTk=
+			NcQKq3QegMnrwpSRdHruujnOXMHLYH1majc/feR41TE=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_UmoAuthSdk.framework/_CodeSignature/CodeResources</key>
@@ -582,7 +670,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jEyfu3QKHj0Nm05biddk6/NOndf5sNf7MMBbpQb38Hc=
+			1ASc+3hi/G/LrjN6eYiTG7DuAqk28vVD8tS7hk6kqaw=
 			</data>
 		</dict>
 		<key>Frameworks/amplify_secure_storage.framework/Info.plist</key>
@@ -603,7 +691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XS5SktEr9OAayCrOQ8AyGVr2XXsxgc0Ls7xskhvHrI=
+			nKSzCotHEHadGUefNIRtKQcXB9n/+ViVIOGlMQz0Xsc=
 			</data>
 		</dict>
 		<key>Frameworks/amplify_secure_storage.framework/amplify_secure_storage_privacy.bundle/Info.plist</key>
@@ -638,7 +726,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nnoLQC4YUdh0JCUK00Hsx1DhuqYKlaoYyGAGr7aZhF0=
+			cYMLne6vUQ0CL27voJAB4PqfN/As11hKaTRTfoC4OWA=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/Info.plist</key>
@@ -673,7 +761,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEdepmiV7BIhfLSrTzLwTaT+p4GcemwqTl80tcUt5pc=
+			YAhx/9unA8204TurFsxD/RaGGhlMrBpDkqpUMrp/B0k=
 			</data>
 		</dict>
 		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
@@ -708,7 +796,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QZrCY1K+I++2YF+g/VO3s8pTZSC5ABJK1zZExteI62E=
+			eafD9BD3T+YxyZBdNtKsBuMPqIJxjppAUkFhj/UHD2k=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
@@ -729,28 +817,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u5h5uaGjFl2yULbKtk1EuaUV25AJEalzsEEt60dSj/k=
+			ZXIclonW89rAlpZ+AoDDhtqYaX6ER2Yx2U9wvSA1JqE=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zAr0PaqbqzHtNbfJ+IVhAtB81muN2gsLmQ0wN+9QNoA=
+			KbkJejxq8lXuz52WPqaJWgOFcX2vwVPSG0CcA/tqfh0=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hao+Fr6YUDlWH8RY+F/SKuGxd9bhyCgGE1SdSGZouj0=
+			93vWrbpawDNiwmkh3tA72kpjCVdelliIPcUqvv7dXo8=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nnGZCyBgTv0juVblE9lDGD/VXy3wA+c9I/S7xFaK6vY=
+			6NYVMowtPQMTrdY81bTuNCrRopsdCfzNzEoKu7uTxFA=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -764,14 +852,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nnGZCyBgTv0juVblE9lDGD/VXy3wA+c9I/S7xFaK6vY=
+			6NYVMowtPQMTrdY81bTuNCrRopsdCfzNzEoKu7uTxFA=
 			</data>
 		</dict>
 		<key>Modules/UmoAuthSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULz6ctKWgQAaxYqF31caef7ej9FrwlpFAbnckyUe7IU=
+			kSLEw8FlXp+h1qK9FCsYkd6dl1vhBIp3gHg8QKRH1Sg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
